@@ -18,7 +18,7 @@ public class Piano extends InstrumentosMusicais{
     
     @Override
     public void tocar(){
-        System.out.println("Tocando acordes do " + nome);
+        System.out.println("Tocando teclas do " + nome);
     }
     
     @Override 

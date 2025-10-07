@@ -18,7 +18,7 @@ public class Saxofone extends InstrumentosMusicais{
     
     @Override
     public void tocar(){
-        System.out.println("Tocando acordes do " + nome);
+        System.out.println("Tocando alto o " + nome);
     }
     
     @Override 

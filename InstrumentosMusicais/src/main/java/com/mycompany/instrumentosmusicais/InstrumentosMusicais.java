@@ -30,7 +30,7 @@ public abstract class InstrumentosMusicais {
     
      
     public void mostrarInformações(){
-        System.out.println("Instrumento: " + nome);
+        System.out.println("\nInstrumento: " + nome);
         System.out.println("Material: " + material);
     }
    

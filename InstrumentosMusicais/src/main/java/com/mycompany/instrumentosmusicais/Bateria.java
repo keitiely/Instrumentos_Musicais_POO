@@ -18,7 +18,7 @@ public class Bateria extends InstrumentosMusicais{
     
     @Override
     public void tocar(){
-        System.out.println("Tocando acordes do " + nome);
+        System.out.println("Tocando Forte o " + nome);
     }
     
     @Override 

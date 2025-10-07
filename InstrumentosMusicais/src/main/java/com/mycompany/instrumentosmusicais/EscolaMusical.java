@@ -23,18 +23,18 @@ public class EscolaMusical {
     
     EscolaMusical escola = new EscolaMusical();
     
-        System.out.println("--Afinando Todos os instrumentos--");
+        System.out.println("\n--Afinando Todos os instrumentos--");
         for(InstrumentosMusicais instrumento : banda){
              instrumento.afinar();
         }
         
         
-        System.out.println("--Tocando todos os instrumentos--");
+        System.out.println("\n--Tocando todos os instrumentos--");
         for(InstrumentosMusicais instrumento : banda){
              instrumento.tocar();
         }
         
-        System.out.println("--Informações de todos os instrumentos--");
+        System.out.println("\n--Informações de todos os instrumentos--");
         for(InstrumentosMusicais instrumento : banda){
              instrumento.mostrarInformações();
         }
